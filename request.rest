@@ -1,0 +1,29 @@
+### Create a new movie
+POST http://localhost:3000/api/movies
+Content-Type: application/json
+
+{
+  "title": "War for the Planet of the Apes",
+  "image": "/img/Spiderman-nwh.jpeg",
+  "description": "After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind.",
+  "director": "Matt Reeves",
+  "year": 2017,
+  "duration": 140
+}
+
+### Get all movies
+GET http://localhost:3000/api/movies
+
+### Get a movie by ID
+GET http://localhost:3000/api/movies/1
+
+### Update a movie by ID
+PUT http://localhost:3000/api/movies/1
+Content-Type: application/json
+
+{
+  "image": "/img/Inception.jpg"
+}
+
+### Delete a movie by ID
+DELETE http://localhost:3000/api/movies/1

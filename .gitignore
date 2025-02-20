@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+pids
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore package-lock.json (jika menggunakan yarn)
+package-lock.json
+
+# Ignore build/dist directories
+dist/
+build/
+
+# Ignore cache directories
+.cache/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Environment variables
+.env*
+.env
+.env.local
+.env.*.local
+
+# Ignore .DS_Store files (MacOS)
+.DS_Store
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idea/
+
+# Ignore coverage directories
+coverage/
+
+# Ignore OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
