@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Hello World Indonesia !!</title>
+      <title>Hello World!</title>
       <style>
         body {
           display: flex;
@@ -27,7 +27,7 @@ router.get('/', (req, res) => {
       </style>
     </head>
     <body>
-      <h1>Hello World!</h1>
+      <h1>Hello World !!</h1>
     </body>
     </html>
   `);
